@@ -1,7 +1,73 @@
-.root {
-  background-color: aliceblue;
-}
 .profile {
   display: flex;
   flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding-top: 20px;
+}
+
+.avatar {
+  border: 16px solid var(--yellow-main);
+  border-radius: 197px;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+
+.name {
+  font-family: "Gilroy Regular";
+  font-weight: 600;
+  font-size: 40px;
+  color: #2c2c2c;
+  margin: 0 auto;
+}
+
+.tag,
+.location {
+  font-family: "Gilroy Regular";
+  font-weight: 500;
+  font-size: 30px;
+  color: #696868;
+  margin: 0 auto;
+}
+
+.list {
+  display: flex;
+  max-width: 500px;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #8e8f99;
+  height: 112px;
+  padding: 24px 100px 24px 100px;
+  border-color: #464444;
+  background: #b8b2b2;
+}
+
+.statistics,
+.number {
+  font-family: "Gilroy Regular";
+  font-size: 30px;
+  color: #0a0a0a;
+}
+
+.statistics {
+  font-weight: 500;
+}
+
+.number {
+  font-weight: 700;
 }
