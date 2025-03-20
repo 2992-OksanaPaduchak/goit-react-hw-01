@@ -1,34 +1,34 @@
-import css from "./Profile.module.css";
+import s from "./Profile.module.css";
 
 const Profile = ({ name, tag, location, image, stats }) => {
   return (
-    <div className={css.profile}>
-      <div className={css.info}>
-        <img className={css.avatar} src={image} alt="User avatar" />
-        <p className={css.name}>{name}</p>
-        <p className={css.tag}>{tag}</p>
-        <p className={css.location}>{location}</p>
+    <div className={s.profile}>
+      <div>
+        <img className={s.avatar} src={image} alt="User avatar" />
+        <p className={s.name}>{name}</p>
+        <p className={s.tag}>{tag}</p>
+        <p className={s.location}>{location}</p>
       </div>
 
-      <ul className={css.list}>
-        <li className={css.item}>
-          <div className={css.box}>
-            <span className={css.statistics}>Followers</span>
-            <span className={css.number}>{stats.followers}</span>
+      <ul className={s.list}>
+        <li className={s.item}>
+          <div className={s.box}>
+            <span className={s.statistics}>Followers</span>
+            <span className={s.number}>{stats.followers}</span>
           </div>
         </li>
 
-        <li className={css.item}>
-          <div className={css.box}>
-            <span className={css.statistics}>Views</span>
-            <span className={css.number}>{stats.views}</span>
+        <li className={s.item}>
+          <div className={s.box}>
+            <span className={s.statistics}>Views</span>
+            <span className={s.number}>{stats.views}</span>
           </div>
         </li>
 
-        <li className={css.item}>
-          <div className={css.box}>
-            <span className={css.statistics}>Likes</span>
-            <span className={css.number}>{stats.likes}</span>
+        <li className={s.item}>
+          <div className={s.box}>
+            <span className={s.statistics}>Likes</span>
+            <span className={s.number}>{stats.likes}</span>
           </div>
         </li>
       </ul>

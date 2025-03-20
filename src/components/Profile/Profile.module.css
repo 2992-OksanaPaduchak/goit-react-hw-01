@@ -6,8 +6,9 @@
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 3px solid #0c0d0e;
   padding-top: 20px;
+  margin-bottom: 40px;
 }
 
 .avatar {
@@ -15,30 +16,32 @@
   border-radius: 197px;
   width: 200px;
   height: 200px;
-  background-color: black;
+  background-color: rgb(31, 30, 30);
+  margin-bottom: 10px;
 }
 
 .name {
-  font-family: "Gilroy Regular";
   font-weight: 600;
   font-size: 40px;
   color: #2c2c2c;
-  margin: 0 auto;
+  margin-bottom: 8px;
 }
 
 .tag,
 .location {
-  font-family: "Gilroy Regular";
   font-weight: 500;
   font-size: 30px;
   color: #696868;
   margin: 0 auto;
+  margin-bottom: 4px;
 }
 
 .list {
   display: flex;
   max-width: 500px;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .item {
@@ -46,20 +49,22 @@
   flex-direction: column;
   width: 200px;
 }
+
 .box {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   border: 1px solid #8e8f99;
-  height: 112px;
-  padding: 24px 100px 24px 100px;
+  height: 130px;
   border-color: #464444;
+  border-bottom: none;
   background: #b8b2b2;
+  margin-top: 20px;
 }
 
 .statistics,
 .number {
-  font-family: "Gilroy Regular";
   font-size: 30px;
   color: #0a0a0a;
 }
